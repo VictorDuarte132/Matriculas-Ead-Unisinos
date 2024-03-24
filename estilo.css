@@ -1,0 +1,158 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-image: url('Estudantes\ fundo.jpg');
+   background-repeat: repeat-y;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: bottom;
+   display: flex;
+   flex-direction: column;
+
+}
+.geral-g{
+    display: flex;
+    flex-direction: column;
+}
+
+/*-----------CONTAINER PARTE DE CIMA COM SITES-----------*/
+
+.container-primeiro{
+    background-color:#0a5483;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+ 
+}
+h1{
+    color: aliceblue;
+    line-height: 32px;
+    position: relative;
+    text-align: bottom left;
+    margin-bottom: 35px;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+   
+
+}
+
+
+/*------------Container do banner novos alunos-----------*/
+
+.texto-alunos{
+    margin: 0 auto;
+    top: 200px;
+    position: relative;
+    background-color:#aedd2b ;
+    padding: 10px 10px;
+    box-shadow: -10px 10px 5px 0px rgb(128, 16, 233);
+    border-radius: 10px;
+
+}
+.texto-alunos h2{   
+    font-size: 40px;
+    line-height: 10px;
+    text-align: center;
+}
+.texto-alunos p{
+    font-size: 30px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.botao-iniciar{
+    position: relative;
+    text-align: center;
+    top: 300px;
+    margin: 0 auto;
+    height: 150px;
+
+}
+.botao-iniciar input {
+    font-size: 50px;
+    margin-top: 40px;
+    margin: 0 auto;
+    background-color: #0a5483;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    border-color: #aedd2b ;
+    
+    
+
+}
+
+/*-------------------MAPA--------------*/
+
+.local  {
+    position: relative;
+    top: 500px;
+    width: 50%;
+    margin: 0px auto;
+}
+.local h3 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    background-color: #7037cd;
+    border-radius: 10px;
+    box-shadow: -5px 2px 5px #aedd2b ;
+
+}
+
+.local p{
+   display: block;
+   text-align: center;
+}
+
+/*----------CONTAINER DAS INFORMAÇÕES-------------*/
+
+.container-inf{
+    position: relative;
+    top: 700px;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.container-inf h4{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    background-color: #7037cd;
+    border-radius: 10px;
+    box-shadow: -5px 2px 5px #aedd2b ;
+
+}
+
+.titulos{
+    background-color: #0a5483;
+    color:aliceblue;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.titulos span{
+    font-size: 17px;
+    font-style: normal;
+}
+
+.link-wpp a{
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+.subtitulo{
+    font-size: 32px;
+}
+
